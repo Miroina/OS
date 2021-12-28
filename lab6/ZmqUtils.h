@@ -8,7 +8,7 @@
 class ZmqUtils {
 public:
 
-    static const int PORT_TO_BIND_FROM = 30000;
+    static const int PORT_TO_BIND_FROM = 40000;
 
     inline static const char* INPUT_URL_TEMPLATE = "tcp://*:";
     inline static const char* OUTPUT_URL_TEMPLATE = "tcp://localhost:";
